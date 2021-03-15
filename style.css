@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+#logo{
+    padding: 20px;    
+}
+span{
+    color: orange;
+}
+#logo-nav{
+    display: flex;
+    border: 1px solid blue;
+    justify-content: space-between;
+    width: 60%;
+}
+nav{
+    border: 2px solid pink;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+#compte-panier{
+    display: flex;
+    justify-content: space-around
+    border: 1px solid black;
+    align-items: center;   
+}
+.compte-panier2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#bonjour{
+    text-align: end;
+    font-size: 20px;
+}
+#contact{
+    padding: 10px;
+        
+}
+.contact2{
+    padding: 10px;
+    border-right: 2px solid grey;
+}
