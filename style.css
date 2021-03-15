@@ -32,7 +32,8 @@ nav{
 #compte-panier{
     display: flex;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
+    border: 1px solid black;   
 }
 .compte-panier2{
     display: flex;
